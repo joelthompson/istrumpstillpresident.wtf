@@ -1,17 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Patua+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-  background-color: red;
+  background: #cdf;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1#trumpstatus {
+h1 {
+    width: 100%;
+    color: #696969;
+    margin: 5px;
+    font-family: "Patua One", cursive;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
   text-align: center;
-  margin-top: 15%;
-  text-transform: uppercase;
-  font-size: 120px;
 }
-
-p#trumpdetail {
-  text-align: center;
-  /*font-weight: bold;*/
-  font-size: 60px;
+/** Copied from https://codepen.io/jkantner/pen/owdRev **/
+.flag {
+  background: repeating-linear-gradient(#b22234, #b22234 14.2857142857%, white 14.2857142857%, white 28.5714285714%) 100% 0/60% 54% no-repeat, repeating-linear-gradient(0deg, #b22234, #b22234 16.6666666667%, white 16.6666666667%, white 33.3333333333%) 0 100%/100% 46.1538461538% no-repeat, linear-gradient(90deg, #3c3b6e 1%, transparent 1%, transparent 38.44%, #3c3b6e 38.44%) 0 0/100% 100%, linear-gradient(#3c3b6e 1%, transparent 1%) 0 0/100% 100%, linear-gradient(90deg, transparent 50%, #3c3b6e 50%) 1.2% 53.8461538462%/6.9% 6.8% repeat-x, linear-gradient(-36deg, #3c3b6e 10%, transparent 10%) 6.6% 14.4%/6.9% 11.1%, linear-gradient(36deg, #3c3b6e 11%, transparent 11%) 6.6% 14.4%/6.9% 11.1%, linear-gradient(-36deg, #3c3b6e 18.5%, transparent 18.5%) 3% -1%/6.9% 11.1%, linear-gradient(36deg, #3c3b6e 18.5%, transparent 18.5%) 3% -1%/6.9% 11.1%, linear-gradient(72deg, white 15.25%, transparent 15.25%) 3% -1%/6.9% 11.1%, linear-gradient(-36deg, transparent 44%, #3c3b6e 44%, #3c3b6e 63%, transparent 63%) 3% -1%/6.9% 11.1%, linear-gradient(-72deg, white 15.25%, transparent 15.25%) 3% -1%/6.9% 11.1%, linear-gradient(36deg, transparent 44%, #3c3b6e 44%, #3c3b6e 63%, transparent 63%) 3% -1%/6.9% 11.1%, linear-gradient(transparent 47%, white 47%, white 60%, transparent 60%, transparent 88%, white 88%) 3% -1%/6.9% 11.1%, linear-gradient(72deg, transparent 68.5%, #3c3b6e 68.5%) 3% -1%/6.9% 11.1%, linear-gradient(-72deg, transparent 68.5%, #3c3b6e 68.5%) 3% -1%/6.9% 11.1%, radial-gradient(circle at top center, white 20%, transparent 20%) 3% -1%/6.9% 11.1%, linear-gradient(72deg, transparent 46.5%, #3c3b6e 46.5%) 3% -1%/6.9% 11.1%, linear-gradient(-72deg, white 46.5%, #3c3b6e 46.5%) 3% -1%/6.9% 11.1%;
+  margin: 30px auto;
+  width: 517px;
+  height: 273px;
 }
-

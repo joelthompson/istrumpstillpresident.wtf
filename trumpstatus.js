@@ -24,12 +24,12 @@ var updateDelta = function() {
   var text = date.days + " days, " + date.hours + " hours, " + date.minutes + " minutes, " + date.seconds + " seconds"
   if (millis > 0) {
     document.getElementById("trumpstatus").innerHTML = "yes :(";
-    document.getElementById("trumpdetail").innerHTML = text + " until the next inauguration.<br>And it can't come soon enough.";
+    document.getElementById("trumpdetail").innerHTML = text + " until Joe Biden is inaugurated to replace Trump.<br>And it can't come soon enough.";
     document.getElementsByTagName("body")[0].style["background-color"] = "red";
   }
   else {
     document.getElementById("trumpstatus").innerHTML = "NO! HOORAY!";
-    document.getElementById("trumpdetail").innerHTML = text + " since the inauguration";
+    document.getElementById("trumpdetail").innerHTML = text + " since Joe Biden was inaugurated to replace Trump!";
     document.getElementsByTagName("body")[0].style["background-color"] = "green";
   }
   window.setTimeout(updateDelta, 1000);

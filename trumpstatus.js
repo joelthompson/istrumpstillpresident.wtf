@@ -1,7 +1,7 @@
 
 var untilInauguration = function() {
   var now = (new Date()).getTime();
-  var nextInauguration = Date.UTC(2021, 0, 20, 17);
+  var nextInauguration = Date.UTC(2029, 0, 20, 17);
   //var nextInauguration = Date.UTC(2017, 0, 20, 17);
   return delta = nextInauguration - now;
 }
@@ -24,12 +24,12 @@ var updateDelta = function() {
   var text = date.days + " days, " + date.hours + " hours, " + date.minutes + " minutes, " + date.seconds + " seconds"
   if (millis > 0) {
     document.getElementById("trumpstatus").innerHTML = "yes :(";
-    document.getElementById("trumpdetail").innerHTML = text + " until Joe Biden is inaugurated to replace Trump.<br>And it can't come soon enough.";
+    document.getElementById("trumpdetail").innerHTML = text + " until the next president is inaugurated to replace Trump.<br>And it can't come soon enough.";
     document.getElementsByTagName("body")[0].style["background-color"] = "red";
   }
   else {
     document.getElementById("trumpstatus").innerHTML = "NO! HOORAY!";
-    document.getElementById("trumpdetail").innerHTML = text + " since Joe Biden was inaugurated to replace Trump!";
+    document.getElementById("trumpdetail").innerHTML = text + " since Trump was replaced!";
     document.getElementsByTagName("body")[0].style["background-color"] = "green";
   }
   window.setTimeout(updateDelta, 1000);
